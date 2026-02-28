@@ -1,91 +1,150 @@
 # Business Context
 
-**Status**: [PLACEHOLDER] — This document gets filled in during the onboarding interview. Claude will ask questions and populate this collaboratively. Nothing here is final until Liz approves it.
+**Status**: Draft — reviewed with Liz during onboarding interview, 2026-02-27. Pending her approval.
 
 ---
 
 ## The Business
 
-**Business Name**: [PLACEHOLDER]
-**Owner**: [PLACEHOLDER]
-**Type**: Political Consultancy
-**Location**: [PLACEHOLDER]
-**Years in Operation**: [PLACEHOLDER]
+**Business Name**: Candidette Campaigns
+**Short name**: Candidette
+**Owner**: Liz
+**Type**: Political Consultancy — Campaign Management
+**Location**: Based in Seattle. Also NY/NJ.
+**Existing Website**: www.candidette.com (currently on Squarespace)
 
 ### What She Does (In Her Own Words)
-[PLACEHOLDER — Captured verbatim from the interview. This is the authentic voice.]
+
+Campaign management for first-time candidates who are women or have non-dominant identities — people who are not the traditional heterosexual, cisgender, white male candidate. Focused on municipal and county-level races. Engagements run the full length of the race.
 
 ### Client Profile
-- **Client types**: [campaigns / organizations / PACs / individuals / other]
-- **Political level**: [local / state / federal / mix]
-- **Geographic focus**: [PLACEHOLDER]
-- **Typical engagement**: [PLACEHOLDER — what happens from first call to delivery]
+
+- **Client types**: Individual candidates (primarily). Secondary: consultants or hiring managers engaging on behalf of a candidate.
+- **Political level**: Municipal, county, and state legislature (focus for now — a realistic target for ﬁrst-time candidates)
+- **Race types**: Primary, special election, general election
+- **Geographic focus**: Seattle area and NY/NJ, but varies
+- **Typical engagement**:
+  1. Candidate finds Liz (via Google, LinkedIn, Instagram, Facebook) or Liz proactively shares the site with a prospect
+2. Initial call or virtual meeting: discuss candidate's background, objectives, understanding of the race, personal story, and budget so we can agree on a rate of pay
+  4. Engagement runs the full length of the race
 
 ### Services Offered
-1. [PLACEHOLDER]
-2. [PLACEHOLDER]
-3. [PLACEHOLDER]
+
+1. Strategic Planning & Messaging
+2. Field Operations
+3. Fundraising
+4. Social Media Management
+5. Event Planning
+6. Budget Management
+
+**Pricing**: Sliding scale (adapted to individual budgets)
 
 ### What Makes Her Different
-[PLACEHOLDER — Why clients choose her over others. This is brand DNA.]
+
+Two things, and they work together:
+
+**1. Force multiplier for outsiders**
+Liz is a force multiplier for political outsiders — a steady hand who helps first-time candidates amplify their strengths instead of being steamrolled by the process. Her work is informed by a background in corporate operations, which taught her how to build trust-based relationships, recruit and train volunteers, onboard paid staff, and keep complex projects moving forward. That blend of empathy, organization, and systems thinking is especially valuable for people who haven’t run before.
+
+**2. Genuine commitment to non-dominant candidates — and personal understanding of why it matters**
+Political consultants are overwhelmingly male. The power dynamics between a male consultant and a first-time female candidate — especially one without personal wealth or deep political connections — can make it harder for that candidate to run the campaign she wants. Women and sexual assault survivors may be less likely to challenge assumptions or push back on advice in that environment. Liz understands this from personal experience, both in politics and in corporate. She is a safe, empathetic, fully-invested partner, not a gatekeeper.
 
 ---
 
 ## Digital Presence (Current State)
 
-**Existing Website**: [URL or "none"]
-**Domain Name**: [PLACEHOLDER or "needs to purchase"]
+**Existing Website**: www.candidette.com (Squarespace)
+**Domain**: candidette.com
+**Email**: liz@candidette.com
+**Phone**: (973) 865-9031
 **Social Media**:
-- LinkedIn: [PLACEHOLDER]
-- Twitter/X: [PLACEHOLDER]
-- Other: [PLACEHOLDER]
-
-**Email**: [PLACEHOLDER]
-
-### Site Audit Notes
-[PLACEHOLDER — After scraping/reviewing the existing site (if any), document what exists, what's worth keeping, and what needs rebuilding. Include: page inventory, content worth migrating, SEO baseline, design observations.]
+- Instagram: Candidette (active)
+- Facebook: Candidette (active)
+- LinkedIn: Liz (active)
 
 ---
 
 ## Goals
 
 ### What the Website Should Do
-[PLACEHOLDER — from interview question #6]
+
+- Speak directly to candidates (primary audience), not to consultants or hiring managers
+- Help candidates understand Liz's strengths and ways of working
+- Grow reach — SEO is a key acquisition channel (alongside LinkedIn, Instagram, Facebook)
+- Reaffirm three value propositions visually and through content:
+  1. **Force multiplier** — strategic thinker who magnifies candidates’ goals and turns plans into action
+  2. **Empathetic** — understands the unique challenges of non-traditional candidates
+  3. **Political outsider herself** — not a career insider, which is a feature, not a bug
+
+### What a Candidate Should Know in 30 Seconds
+
+1. Liz is competent and skillful, with a creative mind that can adapt to whatever the race throws at you
+2. She will be a trustworthy partner and ally throughout the campaign
+3. Working with her will put you at ease — she meets you where you are and builds a grounded, competitive grassroots strategy
 
 ### Target Audience
-[PLACEHOLDER — from interview question #7]
+
+**Primary**: First-time candidates who are women or have non-dominant identities, running for municipal, county, or state legislature office
+**Secondary**: Consultants or hiring managers seeking a campaign manager (the site speaks to candidates first; this audience can read between the lines)
 
 ### Growth Direction
-[PLACEHOLDER — from interview question #8: where she's headed]
+
+- Grow site reach and discoverability (SEO)
+- Build a credibility/testimonials section over time — currently limited by early-stage experience; design the space now, populate it as it grows
+- Focus remains on non-traditional candidates at the local level for now
 
 ---
 
 ## Voice and Tone
 
-### How She Talks About Her Work
-[PLACEHOLDER — captured from the interview. Note: phrasing, emphasis, what she's proud of, what she downplays]
+### Core Tagline (Current)
+"Run for office as yourself."
 
-### Words She Uses
-[PLACEHOLDER — her vocabulary, not marketing-speak]
+### Positioning Statement (Current)
+"Unapologetically progressive. Proudly authentic."
+
+### How She Talks About Her Work
+- Warm, direct, empathetic
+- Personal — she has skin in the game, she's an outsider too
+- Confident but not boastful
+- The candidate's story is central; Liz's job is to help them tell it
+
+### Words and Ideas That Feel Right
+- Partner, ally
+- Meet you where you are
+- Grassroots
+- Authentic, real
+- Outsider (reclaimed, positive)
+- Competitive — even on a tight budget
+- Whimsical, creative, humorous
 
 ### Words to Avoid
-[PLACEHOLDER — things that feel wrong for her brand. Every consultant has these.]
+- Insider jargon (operatives, battleground, war room)
+- Corporate buzzwords that feel cold or transactional
+- Anything that implies the candidate needs to change who she is to win
 
 ---
 
 ## Competitive Landscape
 
-[PLACEHOLDER — General market notes, NOT competitor names. Category positioning only.]
+The political consulting industry skews heavily male. Most firms are run by men, which creates a culture and set of relationships that can make it harder for people from non‑dominant identities to run competitive campaigns. The result is fewer of those candidates making it into elected office and less representative government overall. Liz is explicitly not positioning against any competitor by name — but the implicit contrast is: a female‑run consultancy that prioritizes candidates who aren't served well by traditional consulting.
 
 ---
 
 ## Sensitive Areas
 
-**Political Positioning**: [Notes on how public she wants to be about partisan alignment, issue positions, etc. Some consultants are openly partisan, some are deliberately neutral. This affects EVERYTHING about the site.]
+**Political Positioning**: Openly progressive. This is stated on the site ("Unapologetically progressive") and is not hidden. It informs who she works with.
 
-**Client Confidentiality**: [Default is maximum discretion. Note any clients/campaigns she's willing to reference publicly, e.g. for case studies or testimonials.]
+**Client Confidentiality**: Default is maximum discretion. No specific clients or campaigns referenced without Liz's explicit permission. Testimonials section TBD — she will gather these over time.
 
-**Compliance Notes**: [Any regulatory considerations she mentions — campaign finance disclosure, lobbying registration, etc. We don't advise on these, but we need to know they exist.]
+**Compliance Notes**: Campaign finance, lobbying registration, and other regulatory matters are outside scope. Refer to compliance counsel as needed.
+
+---
+
+## Current Site — What's Missing
+
+- A successes or testimonials section (currently no experience to populate it; plan to build toward this)
+- Stronger above-the-fold messaging that communicates trust, partnership, and grassroots competence within 30 seconds
 
 ---
 
@@ -93,10 +152,13 @@
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
-| [DATE] | [e.g., "Use .com domain over .io"] | [e.g., "Professional audience expects .com"] |
+| 2026-02-27 | Improving existing Squarespace site, not rebuilding from scratch | The bones are there; focus on content and messaging improvements |
+| 2026-02-27 | Primary audience: candidates, not consultants | Liz wants candidates to feel spoken to directly |
+| 2026-02-27 | Focus on municipal/county races | Realistic target for first-time candidates; where Liz can have the most impact now |
+| 2026-02-27 | Testimonials section: design the space now, populate later | Limited experience at this stage; don't block the site on it |
 
 ---
 
-**Last Updated**: [DATE]
-**Filled in by**: Claude, based on onboarding interview with [NAME]
-**Approved by**: [NAME] on [DATE]
+**Last Updated**: 2026-02-27
+**Filled in by**: Claude, based on onboarding interview with Liz
+**Approved by**: Pending Liz's review
