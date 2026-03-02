@@ -48,6 +48,24 @@ The remote URL has a hardcoded PAT embedded in `.git/config` on both machines. L
 - **Laptop**: `~/Developer/candidette` — cloned 2026-03-02, clean
 - **Mac mini**: `/candidette` on the Mac mini's own drive (previously accessed from laptop via network mount at `/Volumes/elizabethrosenberg/candidette`) — pull the restructure and run submodule sync
 
+### Desktop Launcher — Replicate on Mac Mini
+A symlink was created on the laptop Desktop pointing to the workspace file:
+```
+~/Desktop/Candidette Campaigns.code-workspace -> ~/Developer/candidette/candidette.code-workspace
+```
+**Do the same on the Mac mini after pulling.** Adjust the path to wherever the local clone lives on that machine:
+```
+ln -s /path/to/candidette/candidette.code-workspace ~/Desktop/"Candidette Campaigns.code-workspace"
+```
+
+### Where Liz Might Go Looking
+We don't know for certain where she'll start from. Cover multiple bases:
+1. **Desktop** — done on laptop, needs to be done on Mac mini
+2. **The repo folder itself** — `candidette.code-workspace` already lives at the repo root, so if she navigates there in Finder she can click it directly
+3. **Anywhere she was editing before** — she previously found and edited markdown files directly from the Mac mini. Consider dropping an additional symlink in her home folder (`~/"Candidette Campaigns.code-workspace"`) or wherever she tends to land first, so no matter where she starts she sees one click to the right place
+
+The goal: no matter where she is in Finder, she should be able to find something to click that opens VS Code correctly. One click, no navigation.
+
 ### projects/ Directory
 Empty now. When Liz takes on a client or campaign, docs for that engagement go in `projects/<campaign-name>/`. Keeps everything under one roof without cluttering the website or business docs.
 
