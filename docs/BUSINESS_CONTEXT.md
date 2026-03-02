@@ -156,6 +156,8 @@ The political consulting industry skews heavily male. Most firms are run by men,
 | 2026-02-27 | Primary audience: candidates, not consultants | Liz wants candidates to feel spoken to directly |
 | 2026-02-27 | Focus on municipal/county races | Realistic target for first-time candidates; where Liz can have the most impact now |
 | 2026-02-27 | Testimonials section: design the space now, populate later | Limited experience at this stage; don't block the site on it |
+| 2026-03-02 | Start with PaperMod theme, evolve later | Liz needs to see a real working site before investing in design refinement; custom CSS or theme swap can come after content is in place |
+| 2026-03-02 | Design reference: beatkitchen.io (layout/typography only) | Nathan and Paul's Hugo + CSS site; adapt structural principles, not the advanced infrastructure |
 
 ---
 
