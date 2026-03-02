@@ -1,3 +1,8 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Candidette Campaigns"
+theme = "papermod"
+
+[params]
+  description = "Competitive grassroots campaign management for first-time candidates"
+  author = "Liz"

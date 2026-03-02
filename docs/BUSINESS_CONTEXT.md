@@ -152,13 +152,13 @@ The political consulting industry skews heavily male. Most firms are run by men,
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
-| 2026-02-27 | Improving existing Squarespace site, not rebuilding from scratch | The bones are there; focus on content and messaging improvements |
+| 2026-02-27 | ~~Improving existing Squarespace site~~ → Rebuilding as Hugo site | Squarespace remains live during development; new Hugo site built locally, Netlify deployment is Nathan's responsibility when ready |
 | 2026-02-27 | Primary audience: candidates, not consultants | Liz wants candidates to feel spoken to directly |
 | 2026-02-27 | Focus on municipal/county races | Realistic target for first-time candidates; where Liz can have the most impact now |
 | 2026-02-27 | Testimonials section: design the space now, populate later | Limited experience at this stage; don't block the site on it |
 
 ---
 
-**Last Updated**: 2026-02-27
+**Last Updated**: 2026-03-02
 **Filled in by**: Claude, based on onboarding interview with Liz
 **Approved by**: Pending Liz's review
