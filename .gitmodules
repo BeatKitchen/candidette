@@ -1,3 +1,3 @@
-[submodule "themes/papermod"]
-	path = themes/papermod
+[submodule "website/themes/papermod"]
+	path = website/themes/papermod
 	url = https://github.com/adityatelange/hugo-PaperMod
