@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.startupEditor": "none",
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": false,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14
+  },
+  "extensions": {
+    "recommendations": [
+      "anthropic.claude-code"
+    ]
+  }
+}

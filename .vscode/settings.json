@@ -1,0 +1,10 @@
+{
+  "explorer.openEditors.visible": 1,
+  "workbench.startupEditor": "none",
+  "files.autoSave": "onFocusChange",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": false,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14
+}
