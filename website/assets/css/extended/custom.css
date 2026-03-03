@@ -287,6 +287,9 @@ footer a:hover { color: var(--accent); }
   list-style: none;
   padding: 0;
   margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
 }
 
 .services-list li {

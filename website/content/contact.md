@@ -34,11 +34,3 @@ hideAuthor: true
 
   <button type="submit" class="btn btn-primary">Let's Talk &rarr;</button>
 </form>
-
-<div class="contact-info">
-
-**Email:** liz@candidette.com
-**Phone:** (973) 865-9031
-**Location:** Seattle, WA &nbsp;·&nbsp; Also NY/NJ
-
-</div>
