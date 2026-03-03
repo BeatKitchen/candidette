@@ -1,22 +1,34 @@
 /* ---- Candidette Custom Styles ---- */
 
+/*
+  SAVED PALETTE — v1 (2026-03-03)
+  Background:    #F5E6C8  (warm sepia)
+  Alt/Entry bg:  #EDD9A3  (darker sepia, used for form fields)
+  Border/Tan:    #C9A97A  (mid-tone warm tan)
+  Accent:        #C4317A  (fuchsia)
+  Accent hover:  #A02566  (deep fuchsia)
+  All text:      #000000  (black)
+  Headings:      Barlow Condensed (600/700/800)
+  Body:          Barlow (400/500/600)
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap');
 
 /* ---- Sepia Palette — override PaperMod theme variables ---- */
 
 :root {
-  --theme:   #F5E6C8;
-  --entry:   #EDD9A3;
+  --theme:   #F8F5F0;
+  --entry:   #EDE9DE;
   --primary: #000000;
   --secondary: #000000;
   --tertiary: #C9A97A;
   --content: #000000;
   --border:  #C9A97A;
-  --code-bg: #EDD9A3;
+  --code-bg: #EDE9DE;
 
-  --accent:       #C4317A;
-  --accent-hover: #A02566;
-  --bg-alt:       #EDD9A3;
+  --accent:       #C42147;
+  --accent-hover: #A01A38;
+  --bg-alt:       #EDE9DE;
 
   --font-heading: 'Barlow Condensed', system-ui, sans-serif;
   --font-body: 'Barlow', system-ui, sans-serif;
@@ -36,6 +48,10 @@ body {
   background: var(--theme) !important;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 /* ---- Typography ---- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,7 +66,6 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background: var(--theme);
-  border-bottom: 2px solid #000;
 }
 
 .logo a {
@@ -63,7 +78,7 @@ header {
 }
 
 #menu a {
-  color: #000;
+  color: var(--accent);
   font-family: var(--font-body);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
@@ -81,7 +96,6 @@ header {
 
 footer {
   background: var(--theme);
-  border-top: 2px solid #000;
   color: #000;
 }
 
@@ -90,43 +104,57 @@ footer a:hover { color: var(--accent); }
 
 /* ---- Buttons ---- */
 
+/*
+  SAVED BUTTON FORMAT — v1 (2026-03-03)
+  Shape:       Pill (border-radius: 999px)
+  Fill:        var(--theme) / cream background
+  Text:        var(--accent) / red-fuchsia #C42147
+  Border:      2px solid #000
+  Hover fill:  var(--entry) / slightly darker cream
+  Font size:   0.95rem
+  Padding:     0.45rem 1.4rem
+*/
+
 .btn {
   display: inline-block;
-  padding: 0.7rem 2rem;
-  border-radius: 0;
+  padding: 0.45rem 1.4rem;
+  border-radius: 999px;
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-decoration: none !important;
+  text-align: center;
   transition: background 0.15s;
 }
 
 .btn-primary {
-  background: #000;
+  background: var(--theme);
   color: var(--accent) !important;
   border: 2px solid #000;
 }
 
 .btn-primary:hover {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--entry);
+  border-color: #000;
 }
 
 /* ---- Hero Banner Image ---- */
 
 .hero-banner {
   width: 100%;
-  height: 480px;
+  height: 580px;
   overflow: hidden;
+  border: 4px solid #000;
+  border-radius: 12px;
 }
 
 .hero-banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 40%;
+  object-position: center 88%;
   display: block;
 }
 
@@ -142,7 +170,6 @@ footer a:hover { color: var(--accent); }
 
 .hero {
   padding: 4rem 0 3.5rem;
-  border-bottom: 2px solid #000;
 }
 
 .hero-breadcrumb {
@@ -201,14 +228,18 @@ footer a:hover { color: var(--accent); }
 
 .section {
   padding: 3rem 0;
-  border-top: 2px solid #000;
+  position: relative;
 }
+
+
 
 .section h2 {
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
   color: #000;
+  border-left: 4px solid var(--accent);
+  padding-left: 0.75rem;
 }
 
 .section a:not(.btn) {
@@ -225,7 +256,7 @@ footer a:hover { color: var(--accent); }
 
 /* ---- Liz Photo Section ---- */
 
-.liz-section {
+.liz-body {
   display: flex;
   gap: 3rem;
   align-items: flex-start;
@@ -241,10 +272,12 @@ footer a:hover { color: var(--accent); }
   object-fit: cover;
   object-position: center 35%;
   display: block;
+  border: 4px solid #000;
+  border-radius: 12px;
 }
 
 @media (max-width: 600px) {
-  .liz-section { flex-direction: column-reverse; }
+  .liz-body { flex-direction: column-reverse; }
   .liz-photo { flex: unset; width: 60%; margin: 0 auto; }
 }
 
@@ -254,12 +287,10 @@ footer a:hover { color: var(--accent); }
   list-style: none;
   padding: 0;
   margin-bottom: 1.5rem;
-  border-top: 1px solid #000;
 }
 
 .services-list li {
   padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border);
   font-weight: 500;
   font-size: 0.95rem;
   letter-spacing: 0.03em;
@@ -270,7 +301,6 @@ footer a:hover { color: var(--accent); }
 
 .cta-section {
   padding: 4rem 0;
-  border-bottom: 2px solid #000;
 }
 
 .cta-section h2 {
@@ -292,7 +322,6 @@ footer a:hover { color: var(--accent); }
 .post-single { background: var(--theme); }
 
 .post-header {
-  border-bottom: 2px solid #000;
   padding-bottom: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -315,7 +344,6 @@ footer a:hover { color: var(--accent); }
   font-size: 1.4rem;
   font-weight: 700;
   margin-top: 2.5rem;
-  border-top: 2px solid #000;
   padding-top: 1rem;
 }
 
@@ -371,7 +399,6 @@ footer a:hover { color: var(--accent); }
 .contact-info {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 2px solid #000;
   font-size: 0.9rem;
   line-height: 2;
 }
