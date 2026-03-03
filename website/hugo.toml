@@ -1,8 +1,33 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://candidette.com/"
 languageCode = "en-us"
 title = "Candidette Campaigns"
 theme = "papermod"
 
 [params]
-  description = "Competitive grassroots campaign management for first-time candidates"
+  description = "Campaign management for first-time candidates who are women or have non-dominant identities. Based in Seattle."
   author = "Liz"
+  ShowShareButtons = false
+  ShowReadingTime = false
+  disableHLJS = true
+  disableSpecial1stPost = true
+  defaultTheme = "light"
+  disableThemeToggle = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 20
+  [[menu.main]]
+    name = "Let's Talk"
+    url = "/contact/"
+    weight = 30

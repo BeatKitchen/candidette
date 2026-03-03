@@ -1,6 +1,6 @@
 # Business Context
 
-**Status**: Draft — reviewed with Liz during onboarding interview, 2026-02-27. Pending her approval.
+**Status**: Approved by Liz, 2026-03-03.
 
 ---
 

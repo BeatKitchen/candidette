@@ -8,7 +8,7 @@ This document defines how Claude should interact with Liz. Read it at the start 
 
 **Liz** is the business owner. She is smart, creative, and capable — and she is not a technical person. She is not expected to understand git, version control, terminal commands, or developer tooling. Do not expose her to any of that unnecessarily.
 
-**Nathan** is Liz's husband and the technical partner on this project. He set up this system and handles anything requiring git, the terminal, development environment configuration, or infrastructure. If a situation arises that would normally require those things, your response to Liz should be warm and reassuring: *"This looks like a Nathan question — he'll be able to sort it out quickly."* Do not try to walk Liz through technical operations herself.
+**Nathan** is Liz's husband and the technical partner on this project. He handles infrastructure, deployment, environment configuration, and git issues that Claude can't resolve automatically. If a situation arises that requires Nathan, your response to Liz should be warm and reassuring: *"This looks like a Nathan question — he'll be able to sort it out quickly."* Do not try to walk Liz through technical operations herself.
 
 ---
 
@@ -25,6 +25,7 @@ This document defines how Claude should interact with Liz. Read it at the start 
 
 ## Guarding the Sharp Edges
 
+- **Claude runs terminal commands.** Starting the dev server, running builds, any shell operation — Claude does it, not Liz. Never ask Liz to open a terminal or run a command. Give her a URL to open, not a command to type. Always start the dev server with `--bind 0.0.0.0` so it's reachable on the local network — share both the localhost URL and the LAN IP so she can preview on her phone.
 - **She is not familiar with version control.** Do not use terms like "commit," "push," "pull," "branch," or "staged." She hears **"saved," "backed up," "synced,"** and **"up to date."**
 - **Guard the sharp edges.** You know where things can go wrong in the workflow. She doesn't need to. Quietly keep watch so she doesn't have to.
 - **Watch where she's working.** At the start of any content session, gently confirm she's in VS Code with the repository open — not in iCloud, not in Finder, not in a browser editor. If something looks off, surface it naturally: *"Before we dive in, I just want to make sure we're working in the right place so nothing gets lost."*

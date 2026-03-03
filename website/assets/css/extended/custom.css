@@ -1,0 +1,338 @@
+/* ---- Candidette Custom Styles ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+/* ---- Sepia Palette — override PaperMod theme variables ---- */
+
+:root {
+  --theme:   #F5E6C8;
+  --entry:   #EDD9A3;
+  --primary: #000000;
+  --secondary: #000000;
+  --tertiary: #C9A97A;
+  --content: #000000;
+  --border:  #C9A97A;
+  --code-bg: #EDD9A3;
+
+  --accent:       #C4317A;
+  --accent-hover: #A02566;
+  --bg-alt:       #EDD9A3;
+}
+
+/* ---- Base ---- */
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background-color: var(--theme);
+  color: #000;
+}
+
+/* PaperMod applies .list to the homepage body; override its background */
+.list {
+  background: var(--theme) !important;
+}
+
+/* ---- Typography ---- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  color: #000;
+}
+
+/* ---- Header / Nav ---- */
+
+header {
+  background: var(--theme);
+  border-bottom: 1px solid var(--border);
+}
+
+.logo a {
+  color: #000;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-weight: 700;
+}
+
+#menu a {
+  color: #000;
+}
+
+#menu a:hover,
+#menu .active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ---- Footer ---- */
+
+footer {
+  background: var(--theme);
+  border-top: 1px solid var(--border);
+  color: #000;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+/* ---- Buttons ---- */
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  border-radius: 3px;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background 0.2s;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+/* ---- Hero Banner Image ---- */
+
+.hero-banner {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+}
+
+/* ---- Page Content Container (homepage) ---- */
+
+.page-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ---- Hero ---- */
+
+.hero {
+  padding: 5rem 0 3.5rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.hero-sub {
+  font-size: 1.1rem;
+  color: #000;
+  font-style: italic;
+  margin: 0 auto 2rem;
+  letter-spacing: 0.02em;
+}
+
+/* ---- Liz Photo Section ---- */
+
+.liz-section {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.liz-text {
+  flex: 1;
+}
+
+.liz-photo {
+  flex: 0 0 220px;
+}
+
+.liz-photo img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 4px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .liz-section {
+    flex-direction: column-reverse;
+  }
+
+  .liz-photo {
+    flex: unset;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* ---- Sections ---- */
+
+.section {
+  padding: 2.75rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.section a:not(.btn) {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.section a:not(.btn):hover {
+  color: var(--accent-hover);
+}
+
+/* ---- Services List ---- */
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.65rem;
+  margin-bottom: 1.25rem;
+}
+
+.services-list li {
+  padding: 0.7rem 1rem;
+  background: var(--bg-alt);
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  color: #000;
+}
+
+/* ---- CTA Section ---- */
+
+.cta-section {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.cta-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.cta-section p {
+  color: #000;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* ---- Single page content (About, Services, Contact) ---- */
+
+.post-single {
+  background: var(--theme);
+}
+
+.post-header h1 {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  color: #000;
+}
+
+.post-content {
+  color: #000;
+}
+
+.post-content a {
+  color: var(--accent);
+}
+
+.post-content a:hover {
+  color: var(--accent-hover);
+}
+
+.post-content hr {
+  border-color: var(--border);
+}
+
+/* ---- Contact Form ---- */
+
+.contact-form {
+  max-width: 520px;
+  margin-top: 1.5rem;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.2rem;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border: 1.5px solid var(--border);
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: var(--entry);
+  color: #000;
+  box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.contact-form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.contact-info {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+  line-height: 2;
+  color: #000;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+}

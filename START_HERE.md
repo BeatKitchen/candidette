@@ -150,10 +150,11 @@ Create content pages in `website/content/`. Typical consultancy site:
 - **Contact**: Form (Netlify Forms — free with Netlify hosting)
 
 ### 1.4 First Local Preview
+Run the dev server — **Claude runs this command, not Liz**:
 ```
 cd website && hugo server --bind 0.0.0.0
 ```
-Walk her through viewing the site on her browser at `http://localhost:1313/`. Get her feedback before deploying.
+Hugo will print the URL (usually `http://localhost:1313/`). Tell Liz the URL and ask her to open it in her browser. Get her feedback before deploying.
 
 ### 1.5 First Deploy
 Nathan will configure Netlify when the site is ready. Until then, all work is local preview only. When Netlify is connected:
