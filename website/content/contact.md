@@ -1,9 +1,13 @@
 ---
-title: "Let's Talk"
-description: "It takes courage to run for office. You've got it."
+title: "It takes courage to run for office."
+description: "You've got it."
+hideAuthor: true
 ---
 
-It takes courage to run for office. You've got it.
+<style>
+.post-header h1 { font-size: 1.75rem; }
+.post-description { color: #C42147; font-weight: 700; font-size: 1.4rem; }
+</style>
 
 <form name="contact" method="POST" data-netlify="true" class="contact-form">
   <input type="hidden" name="form-name" value="contact" />
