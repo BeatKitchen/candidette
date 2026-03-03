@@ -53,9 +53,13 @@ A symlink was created on the laptop Desktop pointing to the workspace file:
 ```
 ~/Desktop/Candidette Campaigns.code-workspace -> ~/Developer/candidette/candidette.code-workspace
 ```
+Use absolute paths to avoid broken symlinks:
+```
+ln -sf /Users/elizabethrosenberg/Developer/candidette/candidette.code-workspace ~/Desktop/"Candidette Campaigns.code-workspace"
+```
 **Do the same on the Mac mini after pulling.** Adjust the path to wherever the local clone lives on that machine:
 ```
-ln -s /path/to/candidette/candidette.code-workspace ~/Desktop/"Candidette Campaigns.code-workspace"
+ln -sf /path/to/candidette/candidette.code-workspace ~/Desktop/"Candidette Campaigns.code-workspace"
 ```
 
 ### Where Liz Might Go Looking
