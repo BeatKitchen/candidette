@@ -4,6 +4,10 @@ description: "I'm Liz. I'm a political outsider and late bloomer. I started Cand
 hideAuthor: true
 ---
 
+<style>
+.post-header { display: none; }
+</style>
+
 <div class="about-layout">
 <div class="about-text">
 
