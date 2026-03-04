@@ -283,6 +283,33 @@ footer a:hover { color: var(--accent); }
   .liz-photo { flex: 0 0 120px; }
 }
 
+/* ---- About Page Layout ---- */
+
+.about-layout {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.about-text { flex: 1; }
+
+.about-photo { flex: 0 0 220px; }
+
+.about-photo img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+  border: 4px solid #000;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .about-layout { flex-direction: column; }
+  .about-photo { flex: 0 0 auto; width: 100%; }
+}
+
 /* ---- Services List ---- */
 
 .services-list {

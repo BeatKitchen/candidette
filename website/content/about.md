@@ -4,7 +4,8 @@ description: "I'm Liz. I'm a political outsider and late bloomer. I started Cand
 hideAuthor: true
 ---
 
-<img src="/images/ItsLiz.jpeg" alt="Liz at a political event" class="about-photo" />
+<div class="about-layout">
+<div class="about-text">
 
 I'm Liz. I'm a political outsider and late bloomer.
 
@@ -23,3 +24,9 @@ I'll see you in the field.
 ---
 
 [Let's Talk &rarr;](/contact/)
+
+</div>
+<div class="about-photo">
+<img src="/images/ItsLiz.jpeg" alt="Liz at a political event" />
+</div>
+</div>
