@@ -459,23 +459,6 @@ footer a:hover { color: var(--accent); }
   background: var(--border);
 }
 
-/* About page photo (referenced in about.md) */
-.about-photo {
-  width: 100%;
-  max-width: 320px;
-  border: 4px solid #000;
-  border-radius: 12px;
-  float: right;
-  margin: 0 0 1.5rem 2rem;
-}
-
-@media (max-width: 600px) {
-  .about-photo {
-    float: none;
-    max-width: 100%;
-    margin: 0 0 1.5rem 0;
-  }
-}
 
 /* PaperMod footer link underline — use accent instead of grey */
 .footer a {
