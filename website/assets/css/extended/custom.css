@@ -32,6 +32,10 @@
 
   --font-heading: 'Barlow Condensed', system-ui, sans-serif;
   --font-body: 'Barlow', system-ui, sans-serif;
+
+  /* PaperMod layout overrides — match Liz's page-content width */
+  --main-width: 860px;
+  --radius: 12px;
 }
 
 /* ---- Base ---- */
@@ -417,6 +421,42 @@ footer a:hover { color: var(--accent); }
   padding-top: 1.5rem;
   font-size: 0.9rem;
   line-height: 2;
+}
+
+/* ---- PaperMod leak fixes ---- */
+
+/* PaperMod adds box-shadow underlines to all .post-content links — kill it on buttons */
+.post-content a.btn,
+.section a.btn {
+  box-shadow: none;
+}
+
+/* PaperMod .post-content hr uses background; Liz uses border-color — normalize */
+.post-content hr {
+  background: var(--border);
+}
+
+/* About page photo (referenced in about.md) */
+.about-photo {
+  width: 100%;
+  max-width: 320px;
+  border: 4px solid #000;
+  border-radius: 12px;
+  float: right;
+  margin: 0 0 1.5rem 2rem;
+}
+
+@media (max-width: 600px) {
+  .about-photo {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 1.5rem 0;
+  }
+}
+
+/* PaperMod footer link underline — use accent instead of grey */
+.footer a {
+  border-bottom-color: var(--border);
 }
 
 /* ---- Responsive ---- */
