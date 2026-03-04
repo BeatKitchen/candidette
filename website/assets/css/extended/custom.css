@@ -32,10 +32,6 @@
 
   --font-heading: 'Barlow Condensed', system-ui, sans-serif;
   --font-body: 'Barlow', system-ui, sans-serif;
-
-  /* PaperMod layout overrides — match Liz's page-content width */
-  --main-width: 860px;
-  --radius: 12px;
 }
 
 /* ---- Base ---- */
