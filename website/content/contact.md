@@ -6,7 +6,7 @@ hideAuthor: true
 
 <style>
 .post-header h1 { font-size: 1.75rem; }
-.post-description { color: #C42147; font-weight: 700; font-size: 1.4rem; }
+.post-description { color: #E0408A; font-weight: 700; font-size: 1.4rem; }
 </style>
 
 <form name="contact" method="POST" data-netlify="true" class="contact-form">

@@ -26,8 +26,8 @@
   --border:  #C9A97A;
   --code-bg: #EDE9DE;
 
-  --accent:       #C42147;
-  --accent-hover: #A01A38;
+  --accent:       #E0408A;
+  --accent-hover: #B8306E;
   --bg-alt:       #EDE9DE;
 
   --font-heading: 'Barlow Condensed', system-ui, sans-serif;
@@ -280,8 +280,7 @@ footer a:hover { color: var(--accent); }
 }
 
 @media (max-width: 600px) {
-  .liz-body { flex-direction: column-reverse; }
-  .liz-photo { flex: unset; width: 60%; margin: 0; }
+  .liz-photo { flex: 0 0 120px; }
 }
 
 /* ---- Services List ---- */
