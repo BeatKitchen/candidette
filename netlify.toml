@@ -1,0 +1,43 @@
+[build]
+  base = "website"
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.155.3"
+  HUGO_EXTENDED = "true"
+
+# Disable form detection — no forms yet, speeds up builds
+[build.processing]
+  skip_processing = false
+[build.processing.html]
+  pretty_urls = true
+
+# Production build (main branch)
+[context.production]
+  command = "hugo --gc --minify --baseURL https://candidette.com/"
+[context.production.environment]
+  HUGO_ENV = "production"
+
+# Deploy previews and branch deploys use Netlify's preview URL
+[context.deploy-preview]
+  command = "hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+
+# Security — block common attack vectors
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/.env"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/xmlrpc.php"
+  to = "/404.html"
+  status = 404
