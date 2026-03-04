@@ -172,6 +172,7 @@ footer a:hover { color: var(--accent); }
   padding: 4rem 0 3.5rem;
 }
 
+.breadcrumbs,
 .hero-breadcrumb {
   font-family: var(--font-body);
   font-size: 0.75rem;
@@ -184,12 +185,14 @@ footer a:hover { color: var(--accent); }
   gap: 0.4em;
 }
 
-.hero-breadcrumb a {
+.hero-breadcrumb a,
+.breadcrumbs a {
   color: var(--accent);
   text-decoration: none;
 }
 
-.hero-breadcrumb a:hover {
+.hero-breadcrumb a:hover,
+.breadcrumbs a:hover {
   color: var(--accent-hover);
 }
 
@@ -348,6 +351,17 @@ footer a:hover { color: var(--accent); }
   font-weight: 700;
   margin-top: 2.5rem;
   padding-top: 1rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 0.75rem;
+}
+
+.post-content h3 { color: var(--accent); }
+
+.services-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
 }
 
 .post-content a { color: var(--accent); }
