@@ -8,6 +8,9 @@ ShowBreadCrumbs: true
 <style>
 .post-header h1 { font-size: 1.4rem; }
 .post-header { padding-bottom: 0; margin-bottom: 0; }
+@media (max-width: 600px) {
+  .post-header h1 { font-size: 1.75rem; }
+}
 </style>
 
 <div class="services-pills">

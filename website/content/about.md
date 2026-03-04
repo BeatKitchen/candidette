@@ -1,7 +1,10 @@
 ---
 title: "About Liz"
 description: "I'm Liz. I'm a political outsider and late bloomer. I started Candidette Campaigns to help first-time female candidates and candidates with non-dominant identities run competitive grassroots campaigns."
+hideAuthor: true
 ---
+
+<img src="/images/ItsLiz.jpeg" alt="Liz at a political event" class="about-photo" />
 
 I'm Liz. I'm a political outsider and late bloomer.
 
