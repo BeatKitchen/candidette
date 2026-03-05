@@ -168,6 +168,15 @@ Nathan will configure Netlify when the site is ready. Until then, all work is lo
 
 This is where the ongoing relationship begins.
 
+### Open Graph / Social Sharing (Do When Images Are Ready)
+When Liz has brand assets and images, add Open Graph meta so links shared on Twitter/X, Facebook, LinkedIn, etc. show a proper preview card instead of blank. Steps:
+- Create an OG image (1200x630px) with Candidette branding — use as the default
+- Set `images` in `hugo.toml` `[params]` for the site-wide default: `images = ["images/og-default.jpg"]`
+- Per-page OG images can be set via `images` in frontmatter
+- PaperMod generates `og:title`, `og:description`, `og:image`, `og:url` automatically from these
+- Twitter/X reads OG tags — no separate Twitter Card tags needed
+- Test with: https://opengraph.xyz
+
 ### SEO & Discoverability
 - Keyword research for political consultancy in her market
 - Meta descriptions for every page
