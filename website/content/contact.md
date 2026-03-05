@@ -1,12 +1,12 @@
 ---
 title: "It takes courage to run for office."
-description: "You've got it."
+description: "YOU'VE GOT IT."
 hideAuthor: true
 ---
 
 <style>
 .post-header h1 { font-size: 1.75rem; }
-.post-description { color: #E0408A; font-weight: 700; font-size: 1.4rem; }
+.post-description { color: #E0408A; font-weight: 700; font-size: 1.75rem; }
 </style>
 
 <form name="contact" method="POST" data-netlify="true" class="contact-form">
@@ -32,5 +32,5 @@ hideAuthor: true
     <textarea id="race" name="race" required placeholder="What office are you running for? What level — city council, county, state legislature? Where? And what's drawing you to run?"></textarea>
   </div>
 
-  <button type="submit" class="btn btn-primary">Let's Talk &rarr;</button>
+  <button type="submit" class="btn btn-primary">SEND</button>
 </form>

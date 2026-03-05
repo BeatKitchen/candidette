@@ -22,7 +22,7 @@ ShowBreadCrumbs: true
   <span class="btn btn-primary">Strategic Planning & Messaging</span>
 </div>
 
-## How We Work
+## How I Work
 
 Candidette Campaigns offers competitive grassroots campaign management services to political outsiders, with a focus on first-time female candidates and candidates with non-dominant identities.
 
