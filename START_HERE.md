@@ -28,13 +28,31 @@ cd website && hugo server --bind 0.0.0.0
 ### Every Session Start
 1. **Pull silently** — sync the repo before doing anything else (see `docs/WORKING_WITH_LIZ.md` for how to communicate this to Liz)
 2. **Check for uncommitted changes** — if prior work wasn't saved, handle it warmly
-3. **Ask what she wants to work on** — her answer becomes the session label and commit message basis
-4. If `docs/BUSINESS_CONTEXT.md` still has `[PLACEHOLDER]` markers, complete the onboarding interview first (Phase 0 below)
-5. Check the **Phase Tracker** below for current priorities
+3. **Start the local dev server** — `cd website && hugo server --bind 0.0.0.0` — so Liz can preview changes immediately
+4. **Ask what she wants to work on** — her answer becomes the session label and commit message basis
+5. If `docs/BUSINESS_CONTEXT.md` still has `[PLACEHOLDER]` markers, complete the onboarding interview first (Phase 0 below)
+6. Check the **Phase Tracker** below for current priorities
+
+### Build & Deploy Protocol (from Nathan — MANDATORY)
+
+**Default workflow is LOCAL PREVIEW. Not Netlify.**
+
+When Liz says "save," "publish," or "let me see it" — she means the local dev server. Show her changes at `http://localhost:1313/`. She can also view on her phone or other devices on the same WiFi — give her the local network URL too (e.g., `http://192.168.x.x:1313/`). Hugo live-reloads automatically — she doesn't even need to refresh.
+
+**Git commits and pushes are fine** — use them to save her work. But pushes to `main` trigger a Netlify build, which uses build minutes from a limited free plan (300/month).
+
+**To avoid burning build minutes while iterating:**
+- Work on a branch (e.g., `git checkout -b draft`) for active development sessions
+- Only merge to `main` when she wants to publish to the web
+- Or: commit to `main` locally but don't push until she's ready to go live
+
+**"Publish to the web"** is the ONLY trigger to push to `main` and deploy. If she doesn't say it, don't do it.
+
+**Tell Liz**: "I'll show you changes right here on your computer first. When you're happy with how it looks, just say 'publish it' and I'll put it on the web."
 
 ### Every Session End
 1. Commit with a message derived from what she said at the start
-2. Push immediately
+2. Push to save her work (use a branch if iterating, `main` if publishing)
 3. Tell her: *"Everything's saved and backed up."*
 
 ---

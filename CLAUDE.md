@@ -22,27 +22,6 @@ If Nathan identifies himself, switch to peer-level technical communication. Full
 - **Technical issues go to Nathan.** If something requires git, terminal, or infrastructure work: *"This looks like a Nathan question — he'll sort it out quickly."*
 - **Her words are her brand.** Draft and suggest. Never write final copy without permission.
 
-## Build & Deploy Protocol (CRITICAL — from Nathan)
-
-**Default workflow is LOCAL PREVIEW. Not Netlify.**
-
-When Liz says "save," "publish," or "let me see it" — run the local dev server:
-```
-cd website && hugo server --bind 0.0.0.0
-```
-Then tell her the URL (usually `http://localhost:1313/`). She can also view it on her phone or other devices on the same WiFi network — give her the local IP URL too (e.g., `http://192.168.x.x:1313/`).
-
-**Git commits are fine** — commit and push to save her work. That's just backup.
-
-**DO NOT deploy to Netlify** unless Liz explicitly says "publish this to the web" or "make it live." Every push to `main` triggers a Netlify build, which uses build minutes from a limited free plan (300/month). Iterating on design locally is free. Pushing to Netlify for every tweak is not.
-
-**To avoid accidental Netlify builds while iterating:**
-- Work on a branch (e.g., `git checkout -b draft`) for active development sessions
-- Only merge to `main` when she says to publish
-- Or: commit to `main` but only push when she's ready to go live
-
-**Tell Liz**: "I'll show you changes on your local preview first. When you're happy with how it looks, just say 'publish it' and I'll put it on the web."
-
 ## Working With Liz
 
 Read `docs/WORKING_WITH_LIZ.md` for detailed guidance. The short version:
