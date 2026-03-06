@@ -156,11 +156,20 @@ cd website && hugo server --bind 0.0.0.0
 ```
 Hugo will print the URL (usually `http://localhost:1313/`). Tell Liz the URL and ask her to open it in her browser. Get her feedback before deploying.
 
-### 1.5 First Deploy
-Nathan will configure Netlify when the site is ready. Until then, all work is local preview only. When Netlify is connected:
-- Base directory: `website`
-- Build command: `hugo --minify`
-- Publish directory: `website/public`
+### 1.5 Deploy (Netlify — LIVE, USE SPARINGLY)
+Netlify is connected and auto-deploys on every push to `main`. The free plan has **300 build minutes/month** — do not waste them on iterative design changes.
+
+**Default**: Use local preview (`hugo server --bind 0.0.0.0`) for all iteration.
+**Publish to web**: Only push to `main` when Liz explicitly says to publish.
+**Branch workflow**: During active sessions, work on a branch to avoid triggering builds:
+```
+git checkout -b draft
+# ... iterate, commit, show local preview ...
+# When ready to publish:
+git checkout main && git merge draft && git push origin main
+```
+
+See `CLAUDE.md` "Build & Deploy Protocol" for the full rules.
 
 ---
 
