@@ -39,14 +39,13 @@ cd website && hugo server --bind 0.0.0.0
 
 When Liz says "save," "publish," or "let me see it" — she means the local dev server. Show her changes at `http://localhost:1313/`. She can also view on her phone or other devices on the same WiFi — give her the local network URL too (e.g., `http://192.168.x.x:1313/`). Hugo live-reloads automatically — she doesn't even need to refresh.
 
-**Git commits and pushes are fine** — use them to save her work. But pushes to `main` trigger a Netlify build, which uses build minutes from a limited free plan (300/month).
+**Git commits and pushes are fine** — they do NOT trigger a Netlify build. Auto-builds are turned off. Pushes to `main` are just backup.
 
-**To avoid burning build minutes while iterating:**
-- Work on a branch (e.g., `git checkout -b draft`) for active development sessions
-- Only merge to `main` when she wants to publish to the web
-- Or: commit to `main` locally but don't push until she's ready to go live
-
-**"Publish to the web"** is the ONLY trigger to push to `main` and deploy. If she doesn't say it, don't do it.
+**To publish to the live website**, Liz must explicitly say "publish to the web" or "make it live." When she does, run:
+```
+curl -X POST "$(cat config/netlify_hook.txt | cut -d= -f2)"
+```
+This triggers a Netlify build from the latest `main`. The build hook URL is in `config/netlify_hook.txt` (gitignored).
 
 **Tell Liz**: "I'll show you changes right here on your computer first. When you're happy with how it looks, just say 'publish it' and I'll put it on the web."
 
