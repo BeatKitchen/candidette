@@ -8,24 +8,22 @@ hideAuthor: true
 .post-header { display: none; }
 </style>
 
-## Welcome, Candidette.
+## Hey there, Candidette!
 
 <p style="font-size: 1.4rem; color: #E0408A;">I'm Liz. Let's see what we have in common.</p>
 
 <div class="about-layout">
 <div class="about-text">
 
-I've always been a passionate progressive Democrat. I never imagined I'd work in politics.
+I've always been a passionate progressive. I never imagined I'd work in politics.
 
-Campaign management is my second act. My first was helping CEOs be CEOs. I rely on my relational, operational, strategic, and results-driven core competencies when managing a campaign.
+Before I began helping Candidettes be candidates, I helped CEOs be CEOs. My corporate background informs the way I manage campaigns. I rely on my relational, operational, and strategic strengths. I'm results-driven. I'm as comfortable running a meeting as I am hosting a canvass.
 
-I do this work because I want to save lives. I created Candidette Campaigns because my personal history includes sexual harassment and trauma. This shapes the way I think about social power structures.
+My personal history includes sexual harassment and trauma. It has shaped the way I think about social power structures and it's why Candidette Campaigns exists. I want to be a force-multiplier and champion for first-time female candidates and others with non-dominant identities who are taking the courageous step of running for office. My goal is to amplify your vision and to make sure your identity doesn't get steamrolled by the rigors of running for office.
 
-I want Candidette to be a safe space for first-time female candidates and others with non-dominant identities from which they can run competitive campaigns. My job is to be a trusted partner and force multiplier. My goal is to amplify your strengths, protect your vision, and make sure your identity doesn't get steamrolled by the process.
+I moved to Seattle from Brooklyn, but am a Jersey Girl at heart. I have a thing for designer handbags, shoes and cult perfumes. I play video games and read tarot cards for kicks. I root for lovers and underdogs. I curse like a sailor.
 
-I root for lovers and underdogs. I've got a thing for shoes, designer handbags, and cult perfumes. I play video games and read tarot cards for kicks. I'm a Jersey Girl living in Seattle. I curse like a sailor.
-
-**Let's fight the boss fight together. Let's save some lives. I'll see you in the field, Candidette.**
+**This is the boss fight. Let's win it for the people with no one else in their corner. I'll see you in the field.**
 
 ---
 

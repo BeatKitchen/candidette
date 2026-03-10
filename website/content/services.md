@@ -6,12 +6,16 @@ ShowBreadCrumbs: true
 ---
 
 <style>
-.post-header h1 { font-size: 1.4rem; }
-.post-header { padding-bottom: 0; margin-bottom: 0; }
-@media (max-width: 600px) {
-  .post-header h1 { font-size: 1.75rem; }
-}
+.post-header { display: none; }
 </style>
+
+## How I Work
+
+Candidette Campaigns offers competitive grassroots campaign management services to political outsiders, with a focus on first-time female candidates and candidates with non-dominant identities.
+
+**We offer our services on a sliding scale and will work with your budget.**
+
+## Our Services
 
 <div class="services-pills">
   <span class="btn btn-primary">Budget Management</span>
@@ -22,10 +26,6 @@ ShowBreadCrumbs: true
   <span class="btn btn-primary">Strategic Planning & Messaging</span>
 </div>
 
-## How I Work
-
-Candidette Campaigns offers competitive grassroots campaign management services to political outsiders, with a focus on first-time female candidates and candidates with non-dominant identities.
-
-We offer our services on a sliding scale and will work with your budget.
+<br>
 
 [Let's Talk &rarr;](/contact/)

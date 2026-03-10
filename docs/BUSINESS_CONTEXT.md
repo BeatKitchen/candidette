@@ -44,7 +44,7 @@ Campaign management for first-time candidates who are women or have non-dominant
 Two things, and they work together:
 
 **1. Force multiplier for outsiders**
-Liz is a force multiplier for political outsiders — a steady hand who helps first-time candidates amplify their strengths instead of being steamrolled by the process. Her work is informed by a background in corporate operations, which taught her how to build trust-based relationships, recruit and train volunteers, onboard paid staff, and keep complex projects moving forward. That blend of empathy, organization, and systems thinking is especially valuable for people who haven’t run before.
+i
 
 **2. Genuine commitment to non-dominant candidates — and personal understanding of why it matters**
 Political consultants are overwhelmingly male. The power dynamics between a male consultant and a first-time female candidate — especially one without personal wealth or deep political connections — can make it harder for that candidate to run the campaign she wants. Women and sexual assault survivors may be less likely to challenge assumptions or push back on advice in that environment. Liz understands this from personal experience, both in politics and in corporate. She is a safe, empathetic, fully-invested partner, not a gatekeeper.

@@ -70,6 +70,9 @@ We don't know for certain where she'll start from. Cover multiple bases:
 
 The goal: no matter where she is in Finder, she should be able to find something to click that opens VS Code correctly. One click, no navigation.
 
+### ItsLiz.jpeg — Background Edit Needed
+Liz wants the background of `website/static/images/ItsLiz.jpeg` replaced with the site's sepia color (#F5E6C8), subject (Liz) preserved as-is. Remove.bg or Photoshop both work. Once done, drop the new file in place at the same path — the site will pick it up automatically. The `.liz-photo` CSS container already has `background-color` on the parent; if you use a PNG with transparent background, add `background-color: #F5E6C8` to `.liz-photo` in `custom.css`.
+
 ### projects/ Directory
 Empty now. When Liz takes on a client or campaign, docs for that engagement go in `projects/<campaign-name>/`. Keeps everything under one roof without cluttering the website or business docs.
 
