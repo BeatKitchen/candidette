@@ -227,6 +227,46 @@ When Liz has brand assets and images, add Open Graph meta so links shared on Twi
 
 ---
 
+## Managing Multiple Projects
+
+Liz's work will span multiple areas — her website, client engagements, personal organization, and more. This repo is the umbrella for all of it.
+
+### Directory Structure
+
+```
+candidette/
+├── website/          ← The candidette.com Hugo site
+├── docs/             ← Business context, brand, operational docs
+├── projects/         ← Each project or engagement gets its own folder
+│   ├── example-campaign/
+│   │   ├── README.md       ← What this project is, status, key dates
+│   │   ├── notes/          ← Meeting notes, research, strategy docs
+│   │   └── deliverables/   ← Finished work products
+│   └── another-project/
+├── config/           ← API keys, credentials (gitignored)
+└── CLAUDE.md         ← Auto-loaded instructions
+```
+
+### When Liz Starts a New Project
+
+1. **Ask what to call it** — get a short, clear name (e.g., "school board race," "fundraiser event," "personal planning")
+2. **Create `projects/<project-name>/`** with a `README.md` that captures: what it is, who it's for, key dates, current status
+3. **Keep project files in that directory** — do not scatter them across the repo
+4. **Use the project name in commit messages** — e.g., `[SCHOOL BOARD RACE] Draft outreach plan`
+
+### Segmentation Rules
+
+- **Website work** always lives in `website/` — never in `projects/`
+- **Business-level docs** (brand, services, audit) stay in `docs/` — they apply to everything
+- **Project-specific docs** go in that project's directory — even if they reference the website or business docs
+- **Cross-project work** (e.g., updating the website to add a testimonial from a campaign) — commit to both locations with clear messages
+
+### When Liz Asks to "Start Something New"
+
+She might say "I have a new client" or "I want to organize my schedule" or "I need to plan an event." These are all new projects. Create the directory, set up the README, and ask her what she wants to tackle first. Do NOT suggest she start a separate Claude project or go to claude.ai — everything lives here under one roof.
+
+---
+
 ## Recovery Procedures
 
 When things go wrong, protect Liz from the technical details.
@@ -248,7 +288,7 @@ When things go wrong, protect Liz from the technical details.
 | File | Purpose | Status |
 |------|---------|--------|
 | `START_HERE.md` | This file — master routing and system instructions | Active |
-| `CLAUDE.md` | Behavioral boundaries (auto-loaded) | Active |
+| `CLAUDE.md` | Auto-loaded — session protocol, boundaries, key rules | Active |
 | `docs/BUSINESS_CONTEXT.md` | Who Liz is, what the business does, brand DNA | Filled in, pending approval |
 | `docs/WORKING_WITH_LIZ.md` | How Claude communicates with Liz, sync protocol | Active |
 | `docs/SITE_AUDIT.md` | Audit of existing candidette.com (Squarespace) | Homepage done |
