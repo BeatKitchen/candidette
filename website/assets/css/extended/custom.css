@@ -241,8 +241,19 @@ footer a:hover { color: var(--accent); }
   font-weight: 700;
   margin-bottom: 1.25rem;
   color: #000;
-  border-left: 4px solid var(--accent);
-  padding-left: 0.75rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.section h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 0.85em;
+  background: var(--accent);
 }
 
 .section a:not(.btn) {
@@ -373,12 +384,22 @@ footer a:hover { color: var(--accent); }
 }
 
 .post-content h2 {
-  font-size: 1.4rem;
+  font-size: 1.68rem;
   font-weight: 700;
-  margin-top: 2.5rem;
-  padding-top: 1rem;
-  border-left: 4px solid var(--accent);
-  padding-left: 0.75rem;
+  margin-top: 3.5rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.post-content h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 0.85em;
+  background: var(--accent);
 }
 
 .post-content h3 { color: var(--accent); }
