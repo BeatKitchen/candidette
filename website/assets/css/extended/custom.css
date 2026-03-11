@@ -446,6 +446,12 @@ footer a:hover { color: var(--accent); }
   line-height: 2;
 }
 
+/* ---- Anchor link hashtag — hide the # that appears on heading hover ---- */
+
+.anchor {
+  display: none !important;
+}
+
 /* ---- PaperMod leak fixes ---- */
 
 /* PaperMod adds box-shadow underlines to all .post-content links — kill it on buttons */

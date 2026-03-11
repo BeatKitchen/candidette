@@ -24,8 +24,8 @@ theme = "papermod"
     url = "/about/"
     weight = 10
   [[menu.main]]
-    name = "Services"
-    url = "/services/"
+    name = "How I Work"
+    url = "/how-i-work/"
     weight = 20
   [[menu.main]]
     name = "Let's Talk"

@@ -3,6 +3,7 @@ title: "Campaign Management Services"
 description: ""
 hideAuthor: true
 ShowBreadCrumbs: true
+slug: "how-i-work"
 ---
 
 <style>
