@@ -386,7 +386,7 @@ footer a:hover { color: var(--accent); }
 .post-content h2 {
   font-size: 1.68rem;
   font-weight: 700;
-  margin-top: 3.5rem;
+  margin-top: 5rem;
   position: relative;
   padding-left: 1rem;
 }
@@ -409,6 +409,11 @@ footer a:hover { color: var(--accent); }
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1rem;
+}
+
+.services-pills .btn {
+  cursor: default;
+  pointer-events: none;
 }
 
 .post-content a { color: var(--accent); }
