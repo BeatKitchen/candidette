@@ -1,6 +1,6 @@
 # Mutual Confidentiality Agreement
 
-**Between**: Candidette Campaigns ("Consultant") and Friends of Ron Davis ("Campaign")
+**Between**: Elizabeth Rosenberg dba Candidette Campaigns ("Consultant") and Friends of Ron Davis ("Campaign")
 
 **Effective Date**: March 10, 2026
 
@@ -105,7 +105,7 @@ This Agreement constitutes the entire agreement between the parties regarding co
 
 ## Signatures
 
-**Candidette Campaigns**
+**Elizabeth Rosenberg dba Candidette Campaigns**
 
 Signature: _______________________________
 

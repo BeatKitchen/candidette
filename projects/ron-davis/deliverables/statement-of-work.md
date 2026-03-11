@@ -10,8 +10,7 @@ Consulting Services Proposal
 ## Parties
 
 **Consultant:**
-Elizabeth Rosenberg
-Candidette Campaigns
+Elizabeth Rosenberg dba Candidette Campaigns
 
 **Client:**
 Friends of Ron Davis
@@ -130,7 +129,7 @@ Signature: ___________________________________
 
 Name: Elizabeth Rosenberg
 
-Title: Principal, Candidette Campaigns
+Title: Principal, Elizabeth Rosenberg dba Candidette Campaigns
 
 Date: ___________________________________
 
