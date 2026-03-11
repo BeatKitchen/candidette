@@ -471,6 +471,51 @@ footer a:hover { color: var(--accent); }
   border-bottom-color: var(--border);
 }
 
+/* ---- Scrollbar ---- */
+
+* {
+  scrollbar-color: var(--accent) var(--theme);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--theme); }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
+
+/* ---- Go to top button ---- */
+
+.top-link {
+  background: var(--theme) !important;
+  border: 2px solid #000 !important;
+  color: var(--accent) !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.top-link svg {
+  width: 14px;
+  height: 7px;
+}
+
+.top-link:hover {
+  background: var(--entry) !important;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.footer-sep {
+  color: var(--accent);
+}
+
 /* ---- Responsive ---- */
 
 @media (max-width: 600px) {
