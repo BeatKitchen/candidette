@@ -36,17 +36,43 @@ This engagement begins **March 16, 2026** and concludes **June 8, 2026** (12 wee
 
 Candidette Campaigns will provide consulting and project support in the following areas:
 
-### Field Operations
-Support for voter outreach strategy, volunteer coordination planning, and field program development appropriate to the district and race.
-
-### Social Media
-Guidance on content strategy, messaging, and platform management to support the campaign's digital presence and voter engagement goals.
-
-### Events
-Assistance with event planning, scheduling, and logistics for campaign fundraisers, community appearances, and outreach events.
+---
 
 ### General Campaign Management
-Ongoing strategic support, scheduling assistance, and campaign coordination as mutually agreed upon throughout the engagement.
+*March – June 2026*
+
+- Create campaign timeline.
+- Create preliminary field plan for early voter contact, including identifying priority precincts and public campaign opportunities (community events, farmers markets, etc.).
+- Create and manage candidate's calendar to ensure campaign events — including meetings, interviews, community appearances, and canvasses — are scheduled.
+- Act as Point of Contact for super-volunteers.
+- Receive access to Votebuilder or other campaign CRM to support script creation, volunteer tracking, and related campaign functions.
+
+---
+
+### Volunteer Recruitment, Training and Engagement
+*March – June 2026*
+
+- Create an interim volunteer tracking document (names, emails, phone numbers, interests/proficiencies) to support Votebuilder or other CRM build-out.
+- Co-create canvass script with candidate.
+- Create volunteer training document.
+- Identify volunteers for event support, social media content creation, turf cutting, and canvass training (via Zoom or in-person).
+- Create public-facing campaign event page via Mobilize, Linktree, or other platform for super-volunteer to maintain.
+
+---
+
+### Endorsement Support
+*March – June 2026*
+
+- With candidate, identify endorsement opportunities and co-create and maintain an endorsement tracker.
+- Edit endorsement questionnaires as needed.
+
+---
+
+### Strategic Messaging
+*April – June 2026*
+
+- Co-create candidate messaging for use on social media, website, and leave-behind materials for field use.
+- Edit opinion pieces, speeches, and any other materials as needed.
 
 ---
 
