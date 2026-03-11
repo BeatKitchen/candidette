@@ -18,14 +18,14 @@ Candidette Campaigns offers competitive grassroots campaign management services 
 
 ## Our Services
 
-<div class="services-pills">
-  <span class="btn btn-primary">Budget Management</span>
-  <span class="btn btn-primary">Event Planning</span>
-  <span class="btn btn-primary">Field Operations</span>
-  <span class="btn btn-primary">Fundraising</span>
-  <span class="btn btn-primary">Social Media Management</span>
-  <span class="btn btn-primary">Strategic Planning & Messaging</span>
-</div>
+<ul class="services-list">
+  <li>Budget Management</li>
+  <li>Event Planning</li>
+  <li>Field Operations</li>
+  <li>Fundraising</li>
+  <li>Social Media Management</li>
+  <li>Strategic Planning &amp; Messaging</li>
+</ul>
 
 <br>
 

@@ -404,6 +404,7 @@ footer a:hover { color: var(--accent); }
 
 .post-content h3 { color: var(--accent); }
 
+
 .services-pills {
   display: flex;
   flex-wrap: wrap;
