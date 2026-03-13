@@ -72,6 +72,12 @@ When Liz starts a new project or engagement, create a directory under `projects/
 
 ---
 
+## Prose Style
+
+**Read `docs/AI_PROSE_STYLE.md` before writing any prose.** Banned phrases, banned structures, cadence rules — all apply to website copy, blog posts, client documents, and social drafts. A political consultancy cannot sound like a chatbot.
+
+---
+
 ## Hugo TOML Frontmatter
 
 **ALWAYS use double-quoted strings** for any value containing apostrophes. `title = "I'm a title"` works; `title = 'I'm a title'` breaks Hugo. This has broken builds before.
