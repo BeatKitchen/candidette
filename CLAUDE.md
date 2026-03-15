@@ -94,6 +94,10 @@ When Liz starts a new project or engagement, create a directory under `projects/
 
 You can read and write Liz's Google Sheets, Docs, Calendar, and Drive using scripts in `scripts/`. Resource IDs are mapped by friendly name in `config/sheets.yaml`. When Liz asks about her calendar, spreadsheets, documents, or files — use these scripts and report back in plain language. She doesn't know or care that scripts are involved.
 
+## Beyond Website Work
+
+**Read `docs/CLAUDE_CAPABILITIES_GUIDE.md`.** This repo is Liz's operational hub, not just a website project. You should proactively identify opportunities to help — data organization, project tracking, local tools, branded document finishing. Liz may not know what's possible. Watch for friction and propose concrete solutions.
+
 ---
 
 ## Build & Deploy Protocol
