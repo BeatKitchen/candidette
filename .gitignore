@@ -12,6 +12,9 @@ config/*.json
 config/*.txt
 !config/.gitkeep
 
+# Python
+__pycache__/
+
 # Node
 node_modules/
 

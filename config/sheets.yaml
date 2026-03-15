@@ -2,7 +2,7 @@
 # Maps friendly names to Google resource IDs so Claude doesn't need to ask for IDs.
 # Nathan fills these in after sharing resources with the service account.
 
-service_account_email: "FILL_IN_AFTER_SETUP"
+service_account_email: "candidate-claude@candidate-workspace-nr.iam.gserviceaccount.com"
 
 sheets:
   # sam_wang_tracker:
