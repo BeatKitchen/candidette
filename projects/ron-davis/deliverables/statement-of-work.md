@@ -37,41 +37,35 @@ Candidette Campaigns will provide consulting and project support in the followin
 
 ---
 
-### General Campaign Management
+### Campaign Operations
 *March – June 2026*
 
-- Create campaign timeline.
-- Create preliminary field plan for early voter contact, including identifying priority precincts and public campaign opportunities (community events, farmers markets, etc.).
-- Create and manage candidate's calendar to ensure campaign events — including meetings, interviews, community appearances, and canvasses — are scheduled.
-- Act as Point of Contact for super-volunteers.
-- Receive access to Votebuilder or other campaign CRM to support script creation, volunteer tracking, and related campaign functions.
+- Create a campaign timeline, calculate vote goals, and create a preliminary field plan for early voter contact.
+- Manage the candidate's calendar to ensure campaign meetings, interviews, community and special events, and canvassing opportunities are scheduled.
+- Leverage Votebuilder or other campaign CRM for canvass script creation, volunteer and voter contact tracking, and related campaign functions.
+- Cover/manage staff email daily.
 
 ---
 
-### Volunteer Recruitment, Training and Engagement
+### Volunteer Recruitment & Management
 *March – June 2026*
 
-- Create an interim volunteer tracking document (names, emails, phone numbers, interests/proficiencies) to support Votebuilder or other CRM build-out.
-- Co-create canvass script with candidate.
-- Create volunteer training document.
-- Identify volunteers for event support, social media content creation, turf cutting, and canvass training (via Zoom or in-person).
-- Create public-facing campaign event page via Mobilize, Linktree, or other platform for super-volunteer to maintain.
+- Create interim volunteer tracking document to support an eventual transition to Votebuilder or other campaign CRM.
+- Recruit volunteers to canvass.
+- Recruit "special function" volunteers: fundraising and special event set up, social media content creation, turf cutting, and website development.
+- Cut turf for field events, eventually with greater support from "special function" volunteers.
+- Create special event calendar to proactively identify public campaign opportunities (farmers markets, festivals, etc.) that may be leveraged by candidate and/or volunteers.
+- Create a simple canvass script for early voter outreach.
+- Support "training the trainers" by creating canvass training materials and checklists for super volunteers to leverage at launches.
+- Create a volunteer sign-up system (Mobilize, Linktree, etc.) to advertise volunteer opportunities and make it easier for people to sign up to support the campaign.
 
 ---
 
 ### Endorsement Support
 *March – June 2026*
 
-- With candidate, identify endorsement opportunities and co-create and maintain an endorsement tracker.
-- Edit endorsement questionnaires as needed.
-
----
-
-### Strategic Messaging
-*April – June 2026*
-
-- Co-create candidate messaging for use on social media, website, and leave-behind materials for field use.
-- Edit opinion pieces, speeches, and any other materials as needed.
+- Identify endorsement opportunities and create spreadsheet to track outreach, progress, and results.
+- Assist candidate in endorsement outreach and schedule meetings as needed.
 
 ---
 
