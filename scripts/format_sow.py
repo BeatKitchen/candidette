@@ -10,9 +10,9 @@ from googleapiclient.discovery import build
 TITLE = "Friends of Ron Davis – Proposed Statement of Work"
 
 FONT = "Arial"
-BODY_SIZE = 10
-H1_SIZE = 9
-H2_SIZE = 10
+BODY_SIZE = 11
+H1_SIZE = 10
+H2_SIZE = 11
 
 SECTIONS = [
     ("Proposed Statement of Work", "title"),
