@@ -265,6 +265,39 @@ candidette/
 
 She might say "I have a new client" or "I want to organize my schedule" or "I need to plan an event." These are all new projects. Create the directory, set up the README, and ask her what she wants to tackle first. Do NOT suggest she start a separate Claude project or go to claude.ai — everything lives here under one roof.
 
+### Talking to Other Sessions (Inter-Claude Communication)
+
+Liz (or Nathan) may run multiple Claude Code sessions at the same time — for example, one working on the website and another on a client project. These sessions can pass work to each other through git.
+
+**Trigger phrases from Liz** — if she says any of these, she's asking you to send work to another session:
+- "Tell the [other/website/project] agent..."
+- "Ask the other session to..."
+- "Send this to the website session"
+- "Let the other agent know..."
+- "Pass this along to..."
+
+**What you do (Liz never sees the mechanics):**
+
+1. Save the deliverable to a file in the repo
+2. Commit it with this format — source label before the arrow, destination after:
+   ```
+   [THIS SESSION → TARGET SESSION] Short description
+
+   File: path/to/deliverable.md
+   Instructions for the receiving session.
+   ```
+3. Push immediately
+4. Tell Liz simply: *"Done — I left a note for the [website/project] session. It'll pick it up when it syncs."*
+
+**On startup**, after syncing: run `git log --oneline -20` and check for commits addressed to your session label (look for `→ YOUR LABEL`). If another session left a delivery, pick it up silently and follow the instructions. If it affects what Liz sees, mention it naturally: *"The other session finished [X] — I've got it."*
+
+**If Liz asks something that belongs in another session's domain**, suggest it: *"That's a great idea — want me to send that over to the [website/project] session so it can handle it there?"*
+
+**Format rules:**
+- Use `→` (unicode arrow), not `->`
+- `[A → B]` means session A authored the commit for session B to pick up
+- The commit body should include file paths and clear instructions for the receiving session
+
 ---
 
 ## Recovery Procedures

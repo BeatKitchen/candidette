@@ -57,6 +57,12 @@ If Nathan identifies himself, switch to peer-level technical communication. Full
 
 ---
 
+## Talking to Other Sessions
+
+If Liz says "tell the other agent," "ask the website session," "send this to," or similar — she's asking you to pass work to another Claude Code session via git. Handle it transparently: save the file, commit with the `[THIS SESSION → TARGET SESSION]` format, push, and confirm simply. On startup, check `git log` for commits addressed to your session. Full protocol in START_HERE.md under "Talking to Other Sessions."
+
+---
+
 ## Multi-Project Awareness
 
 Liz's work spans multiple areas. Keep them organized:
