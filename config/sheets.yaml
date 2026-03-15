@@ -1,0 +1,26 @@
+# Candidette Resource Registry
+# Maps friendly names to Google resource IDs so Claude doesn't need to ask for IDs.
+# Nathan fills these in after sharing resources with the service account.
+
+service_account_email: "FILL_IN_AFTER_SETUP"
+
+sheets:
+  # sam_wang_tracker:
+  #   id: "SHEET_ID_HERE"
+  #   name: "Sam Wang Campaign Tracker"
+  #   purpose: "Task tracking and deadlines for Sam Wang NJ-12"
+
+  # ron_davis_sow:
+  #   id: "SHEET_ID_HERE"
+  #   name: "Ron Davis SOW"
+  #   purpose: "Statement of work and deliverables"
+
+calendars:
+  liz_primary:
+    id: "primary"
+    name: "Liz's Primary Calendar"
+
+drive_folders:
+  # sam_wang:
+  #   id: "FOLDER_ID_HERE"
+  #   name: "Sam Wang Campaign Files"

@@ -316,6 +316,36 @@ When things go wrong, protect Liz from the technical details.
 
 ---
 
+## API Access (Google Workspace)
+
+Claude can read and write Liz's Google Sheets, Docs, Calendar, and Drive — but only resources explicitly shared with the service account.
+
+### Setup
+- **Credentials**: `config/google_credentials.json` (service account key, gitignored)
+- **Resource registry**: `config/sheets.yaml` (maps friendly names to Google IDs)
+- **Scripts**: `scripts/` directory — standalone CLI tools Claude calls as needed
+- **Setup guide (Nathan)**: `docs/API_SETUP_PLAN.md`
+- **Setup guide (Liz)**: `docs/GOOGLE_SETUP_GUIDE.md`
+
+### Available Scripts
+| Script | What it does |
+|--------|-------------|
+| `scripts/sheets_read.py` | Read data from a Google Sheet |
+| `scripts/sheets_write.py` | Update cells, append rows to a Sheet |
+| `scripts/docs_read.py` | Read a Google Doc as text |
+| `scripts/docs_create.py` | Create a new Google Doc (optionally in a Drive folder) |
+| `scripts/calendar_read.py` | List upcoming calendar events |
+| `scripts/calendar_create.py` | Create calendar events |
+| `scripts/drive_list.py` | List files in a shared Drive folder |
+
+### To Connect a New Resource
+Share it with the service account email (listed in `config/sheets.yaml` under `service_account_email`). Then add it to `config/sheets.yaml` so Claude can reference it by name.
+
+### For Liz
+When she asks about calendar, spreadsheets, docs, or files — use these scripts. She doesn't know or care about scripts. Just do it and report back in plain language.
+
+---
+
 ## Document Inventory
 
 | File | Purpose | Status |
@@ -325,10 +355,13 @@ When things go wrong, protect Liz from the technical details.
 | `docs/BUSINESS_CONTEXT.md` | Who Liz is, what the business does, brand DNA | Filled in, pending approval |
 | `docs/WORKING_WITH_LIZ.md` | How Claude communicates with Liz, sync protocol | Active |
 | `docs/SITE_AUDIT.md` | Audit of existing candidette.com (Squarespace) | Homepage done |
+| `docs/API_SETUP_PLAN.md` | Google Workspace API setup checklist (Nathan) | Active |
+| `docs/GOOGLE_SETUP_GUIDE.md` | Plain-language API guide (Liz) | Active |
 | `website/hugo.toml` | Hugo site configuration | Needs configuration |
 | `website/content/` | Website content (Markdown files) | Created in Phase 1 |
-| `projects/` | Campaign and client workspaces | Empty — grows with Liz |
-| `config/` | Credentials and API keys (gitignored) | Empty — used when needed |
+| `projects/` | Campaign and client workspaces | Active (Sam Wang, Ron Davis) |
+| `config/` | Credentials, API keys, resource registry (gitignored except .yaml) | Active |
+| `scripts/` | Google Workspace API scripts | Active |
 
 ---
 

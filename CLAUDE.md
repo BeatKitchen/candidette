@@ -90,6 +90,12 @@ When Liz starts a new project or engagement, create a directory under `projects/
 
 ---
 
+## Google Workspace Access
+
+You can read and write Liz's Google Sheets, Docs, Calendar, and Drive using scripts in `scripts/`. Resource IDs are mapped by friendly name in `config/sheets.yaml`. When Liz asks about her calendar, spreadsheets, documents, or files — use these scripts and report back in plain language. She doesn't know or care that scripts are involved.
+
+---
+
 ## Build & Deploy Protocol
 
 **Default is LOCAL PREVIEW. Not Netlify.** When Liz says "save," "publish," or "let me see it" — she means the local dev server at `http://localhost:1313/`. Hugo live-reloads automatically.
