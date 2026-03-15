@@ -1,0 +1,17 @@
+#!/bin/bash
+# Pre-commit hook: prevent CLAUDE.md bloat
+# CLAUDE.md should be a thin pointer to START_HERE.md — never more than 10 lines
+
+CLAUDE_MD="CLAUDE.md"
+if git diff --cached --name-only | grep -q "^${CLAUDE_MD}$"; then
+    LINE_COUNT=$(git show :${CLAUDE_MD} | wc -l | tr -d ' ')
+    if [ "$LINE_COUNT" -gt 10 ]; then
+        echo ""
+        echo "BLOCKED: CLAUDE.md has ${LINE_COUNT} lines (max 10)."
+        echo ""
+        echo "CLAUDE.md is a thin pointer to START_HERE.md — do not add content here."
+        echo "Move your content to START_HERE.md or the appropriate docs/ file."
+        echo ""
+        exit 1
+    fi
+fi
