@@ -82,12 +82,9 @@ Compensation is structured as a monthly retainer based on the hourly rate and ex
 
 ## Payment Terms
 
-The monthly retainer is paid **in advance**, due on or about the **15th of each month** prior to the month of service.
+*TO BE CONFIRMED*
 
-**Payment Schedule:**
-- Month 1: $1,200.00 — due on or about March 15, 2026
-- Month 2: $1,200.00 — due on or about April 15, 2026
-- Month 3: $1,200.00 — due on or about May 15, 2026
+**Payment Schedule:** TBC
 
 Payment method is flexible and will be determined by mutual agreement. Candidette Campaigns is open to check, ACH transfer, Zelle, or other arrangement convenient to the campaign.
 
