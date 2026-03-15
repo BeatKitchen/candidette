@@ -23,11 +23,8 @@ from googleapiclient.discovery import build
 
 def create_doc(title, content, folder_id=None):
     """Create a new Google Doc with the given title and content."""
-    # Need both Docs and Drive scopes if moving to a folder
-    scopes = SCOPES_DOCS + SCOPES_DRIVE if folder_id else SCOPES_DOCS
-    # Drive needs write access to move file
-    if folder_id:
-        scopes = SCOPES_DOCS + ["https://www.googleapis.com/auth/drive"]
+    # Always include Drive scope — needed to move doc to folder and share it
+    scopes = SCOPES_DOCS + SCOPES_DRIVE
     creds = get_credentials(scopes)
 
     docs_service = build("docs", "v1", credentials=creds)

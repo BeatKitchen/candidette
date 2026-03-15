@@ -10,7 +10,7 @@ REGISTRY_PATH = Path(__file__).parent.parent.parent / "config" / "sheets.yaml"
 SCOPES_SHEETS = ["https://www.googleapis.com/auth/spreadsheets"]
 SCOPES_DOCS = ["https://www.googleapis.com/auth/documents"]
 SCOPES_CALENDAR = ["https://www.googleapis.com/auth/calendar"]
-SCOPES_DRIVE = ["https://www.googleapis.com/auth/drive.readonly"]
+SCOPES_DRIVE = ["https://www.googleapis.com/auth/drive"]
 
 
 def get_credentials(scopes):
