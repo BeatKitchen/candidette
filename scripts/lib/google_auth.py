@@ -11,6 +11,10 @@ SCOPES_SHEETS = ["https://www.googleapis.com/auth/spreadsheets"]
 SCOPES_DOCS = ["https://www.googleapis.com/auth/documents"]
 SCOPES_CALENDAR = ["https://www.googleapis.com/auth/calendar"]
 SCOPES_DRIVE = ["https://www.googleapis.com/auth/drive"]
+SCOPES_GMAIL = ["https://www.googleapis.com/auth/gmail.compose",
+                "https://www.googleapis.com/auth/gmail.readonly"]
+SCOPES_TASKS = ["https://www.googleapis.com/auth/tasks"]
+SCOPES_CONTACTS = ["https://www.googleapis.com/auth/contacts"]
 
 
 def get_credentials(scopes):
