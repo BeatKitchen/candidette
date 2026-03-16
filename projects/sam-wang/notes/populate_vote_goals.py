@@ -307,15 +307,15 @@ def main():
     apply_para_style(service, end, end + len(h4), "HEADING_1")
     end += len(h4)
 
-    rec_bold = "Target vote goal: 12,000–15,000 votes (moderate turnout scenario).\n\n"
+    rec_bold = "Target vote goal: 13,500–17,250 votes (high turnout scenario).\n\n"
     insert_text(service, end, rec_bold)
     apply_text_style(service, end, end + len(rec_bold), bold=True)
     end += len(rec_bold)
 
     rec_body = (
-        "This represents approximately 18–23% of projected turnout under the moderate scenario (65,000 total votes). "
+        "This represents approximately 18–23% of projected turnout under the high turnout scenario (75,000 total votes). "
         "A campaign that reaches this target has a strong chance of winning a plurality in a fragmented 18-person field. "
-        "The floor of 12,000 is the minimum to be competitive; 15,000 creates a meaningful buffer against consolidation around another candidate.\n\n"
+        "The floor of 13,500 is the minimum to be competitive; 17,250 creates a meaningful buffer against consolidation around another candidate.\n\n"
         "Targets by turnout scenario:\n\n"
     )
     insert_text(service, end, rec_body)
