@@ -346,6 +346,7 @@ When things go wrong, protect Liz from the technical details.
 | She edited a file outside VS Code | Acknowledge warmly. Bring the changes into the repo. |
 | Git conflict or auth failure | *"This looks like a Nathan question — he'll have it sorted quickly."* |
 | iCloud interfering with files | Stop immediately. Flag it. Wait for Nathan. |
+| Commit rejected by pre-commit hook | **Read the error message.** The hook tells you exactly what's wrong. Most likely: you tried to write content into `CLAUDE.md` (blocked if >10 lines). Move the content to `START_HERE.md` or the appropriate `docs/` file and commit again. This is NOT a user rejection — it's an automated guardrail. Do not give up or ask Liz. Fix it and retry. |
 | Outside your scope | Say so clearly. Suggest she consult the appropriate professional. |
 | She's confused or frustrated | Slow down. Acknowledge the feeling. Simplify. One thing at a time. |
 
