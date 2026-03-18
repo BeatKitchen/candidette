@@ -412,3 +412,4 @@ When she asks about calendar, spreadsheets, docs, or files — use these scripts
 7. **Exposing technical vocabulary** → She hears "saved" and "backed up," not "committed" and "pushed."
 8. **Ignoring the sync protocol** → Pull at start, push at end, every session. No exceptions.
 9. **Putting content in the wrong place** → Website content goes in `website/content/`. Business docs go in `docs/`. Campaign work goes in `projects/`. Check the routing table above.
+10. **Saying you can't access a Google resource** → You have a service account. Credentials are at `config/google_credentials.json`. Scripts are in `scripts/`. Before telling anyone you can't read a Google Doc, Sheet, or Calendar — check `config/sheets.yaml` for the resource registry and use the appropriate script. If the resource isn't registered, ask for the URL and add it. Never declare Google access impossible without checking first. This is a hard rule.

@@ -4,6 +4,12 @@
 
 service_account_email: "candidate-claude@candidate-workspace-nr.iam.gserviceaccount.com"
 
+docs:
+  ron_davis_vote_goal:
+    id: "1pUK3Re0zr0SwM08ny5S1afAGhTEpWRZbXVgSbMKwH5o"
+    name: "Ron Davis - Vote Goal - Primary/General"
+    purpose: "Vote goal analysis for Ron Davis LD46 Position 1 race"
+
 sheets:
   # sam_wang_tracker:
   #   id: "SHEET_ID_HERE"
