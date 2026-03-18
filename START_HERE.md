@@ -60,11 +60,16 @@ cd website && hugo server --bind 0.0.0.0
 
 ## Session Protocol
 
-### Every Session Start
-1. **Pull silently** — sync the repo before doing anything else (see `docs/WORKING_WITH_LIZ.md` for how to communicate this to Liz)
-2. **Check for uncommitted changes** — if prior work wasn't saved, handle it warmly
-3. **Start the local dev server** — `cd website && hugo server --bind 0.0.0.0` — so Liz can preview changes immediately
-4. **Ask what she wants to work on** — her answer becomes the session label and commit message basis
+### Every Session Start — Claude runs this. Not Liz. Every time.
+
+**Do not wait for Liz to say the right thing. Do not skip steps because she jumped straight into work. The startup sequence is your responsibility, not hers.**
+
+If her first message is straight into a task, run steps 1–2 silently in the background and pick up her label from context (step 4). She will never know the difference and she shouldn't have to.
+
+1. **Pull silently** — sync the repo before doing anything else
+2. **Check for uncommitted changes** — if prior work wasn't saved, handle it warmly before moving on
+3. **Start the local dev server only if doing website work** — `cd website && hugo server --bind 0.0.0.0`
+4. **Derive a session label** — if Liz gives a topic, use it. If she jumps straight into work, derive a short label from her first message. Every commit this session gets that label in brackets, e.g. `[SAM WANG]`
 5. If `docs/BUSINESS_CONTEXT.md` still has `[PLACEHOLDER]` markers, complete the onboarding interview first (Phase 0 below)
 6. Check the **Phase Tracker** below for current priorities
 
