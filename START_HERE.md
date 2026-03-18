@@ -67,7 +67,8 @@ cd website && hugo server --bind 0.0.0.0
 If her first message is straight into a task, run steps 1–2 silently in the background and pick up her label from context (step 4). She will never know the difference and she shouldn't have to.
 
 1. **Pull silently** — sync the repo before doing anything else
-2. **Check for uncommitted changes** — if prior work wasn't saved, handle it warmly before moving on
+2. **Enforce hooks** — run `git config core.hooksPath .githooks` silently every session. This is idempotent and safe. It does not travel with the repo on new clones so it must be set each time.
+3. **Check for uncommitted changes** — if prior work wasn't saved, handle it warmly before moving on
 3. **Start the local dev server only if doing website work** — `cd website && hugo server --bind 0.0.0.0`
 4. **Derive a session label** — if Liz gives a topic, use it. If she jumps straight into work, derive a short label from her first message. Every commit this session gets that label in brackets, e.g. `[SAM WANG]`
 5. If `docs/BUSINESS_CONTEXT.md` still has `[PLACEHOLDER]` markers, complete the onboarding interview first (Phase 0 below)
