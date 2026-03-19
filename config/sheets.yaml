@@ -11,6 +11,16 @@ docs:
     purpose: "Vote goal analysis for Ron Davis LD46 Position 1 race"
 
 sheets:
+  ron_davis_hours:
+    id: "1D8A7tVId1yJUlkE77dUpXIql5S2ryU-mg61hFBwhpu0"
+    name: "Ron Davis — Hours Tracker"
+    purpose: "Time tracking for Liz's billable hours on Ron Davis campaign"
+
+  ron_davis_timeline:
+    id: "1cON7YbzPDxoh4p1BydLKTpSRRXe3gL5BbZJo5WxB6n0"
+    name: "Ron Davis — Primary Campaign Timeline"
+    purpose: "Primary campaign timeline for Ron Davis LD46 Position 1"
+
   # sam_wang_tracker:
   #   id: "SHEET_ID_HERE"
   #   name: "Sam Wang Campaign Tracker"
@@ -27,6 +37,9 @@ calendars:
     name: "Liz's Primary Calendar"
 
 drive_folders:
+  ron_davis:
+    id: "1FiCGD3KG5zRtO_P_RJc90hZDsK_g1z_p"
+    name: "Ron Davis Campaign Files"
   # sam_wang:
   #   id: "FOLDER_ID_HERE"
   #   name: "Sam Wang Campaign Files"

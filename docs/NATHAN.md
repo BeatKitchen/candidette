@@ -95,4 +95,20 @@ When the system design evolves (new phases, updated instructions, revised protoc
 
 ---
 
+### Service Account — Storage Quota Fix Needed (2026-03-18)
+
+The service account (`candidate-claude@candidate-workspace-nr.iam.gserviceaccount.com`) has exceeded its Drive storage quota. It can read and write to shared files fine, but can't create new files. This blocks invoice Doc generation and anything else that needs to create new Drive files.
+
+**Preferred fix — Domain-Wide Delegation:**
+1. In Google Workspace Admin Console → Security → API Controls → Domain-wide Delegation, authorize the service account
+2. Grant these OAuth scopes: `https://www.googleapis.com/auth/drive`, `https://www.googleapis.com/auth/documents`, `https://www.googleapis.com/auth/spreadsheets`
+3. In `scripts/lib/google_auth.py`, update `get_credentials()` to accept an optional `subject` parameter and use `Credentials.from_service_account_file(..., subject=subject)` — pass `Liz@candidette.com` as subject when calling from file-creation scripts so new files are owned by Liz and count against her quota
+
+**Quick fix (band-aid):**
+Delete files owned by the service account in Drive to free up its quota. The service account has likely accumulated temp/test files.
+
+DWD is the right long-term solution. The invoice generation script (`scripts/invoice_generate.py`) is ready to go — this is the only thing blocking it.
+
+---
+
 *Created 2026-03-02. Update this file when technical decisions change or new scratchpad items come up.*

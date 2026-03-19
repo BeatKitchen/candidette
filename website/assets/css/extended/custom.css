@@ -549,4 +549,11 @@ footer a:hover { color: var(--accent); }
   .hero-title { font-size: 3.8rem; }
   .hero-foot { flex-direction: column; align-items: flex-start; gap: 1rem; }
   .services-list { grid-template-columns: 1fr; }
+
+  .section h2::before,
+  .post-content h2::before {
+    height: 100%;
+    top: 0;
+    transform: none;
+  }
 }
