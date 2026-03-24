@@ -14,6 +14,17 @@ SECTIONS = [
     ("Vote Goal Analysis — Ron Davis for WA State House", "title"),
     ("LD46, Position 1  |  2026 Primary Election", "subtitle"),
 
+    ("Registered Voters — LD46", "heading1"),
+    ("Total registered voters in Legislative District 46 (King County): 105,957", "table_total"),
+    ("Source: Washington Secretary of State Voter Demographics Tables, February 2026.", "body"),
+
+    ("Voter Turnout Rate — August Primary", "heading1"),
+    ("Percentage of registered voters who cast a ballot in LD46 Position 1 primary elections:", "body"),
+    ("Low turnout (2022, 39,518 votes)  =  37.3% of registered voters", "table_row"),
+    ("Average turnout (48,727 votes avg)  =  46.0% of registered voters", "table_row"),
+    ("High turnout (2020, 62,726 votes)  =  59.2% of registered voters", "table_row"),
+    ("Note: Turnout percentages are calculated using the current registered voter count (105,957) as a baseline. Actual registration totals in 2020 and 2022 were slightly lower, so historical turnout rates may be modestly higher than shown.", "italic"),
+
     ("Methodology", "heading1"),
     ("Vote goals are calculated using the average total votes cast in LD46 Position 1 across the 2020, 2022, and 2024 state primary elections.", "body"),
 
