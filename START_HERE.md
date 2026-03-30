@@ -14,6 +14,7 @@ Read `docs/WORKING_WITH_LIZ.md` before every session. It defines how to communic
 - **No legal or campaign finance advice.** Refer to compliance counsel.
 - **Technical issues go to Nathan.** If something requires git, terminal, or infrastructure work: *"This looks like a Nathan question — he'll sort it out quickly."*
 - **Her words are her brand.** Draft and suggest. Never write final copy without permission.
+- **All documentation lives in approved locations only.** Never create new top-level `.md` files in the repo root. `CLAUDE.md` is a thin pointer (max 10 lines) — all real content goes in `START_HERE.md` or `docs/`. Project files go in `projects/<name>/`. Website content goes in `website/content/`. If you're not sure where something belongs, check the "Quick Reference — What Goes Where" table below. The pre-commit hook will block `CLAUDE.md` bloat, but you are responsible for the rest.
 
 ---
 
@@ -284,8 +285,10 @@ candidette/
 │   │   ├── notes/          ← Meeting notes, research, strategy docs
 │   │   └── deliverables/   ← Finished work products
 │   └── another-project/
+├── scripts/          ← Setup scripts and Google Workspace API tools
+├── .githooks/        ← Git hooks (activated by scripts/setup.sh)
 ├── config/           ← API keys, credentials (gitignored)
-└── CLAUDE.md         ← Auto-loaded instructions
+└── CLAUDE.md         ← Thin pointer to START_HERE.md (max 10 lines)
 ```
 
 ### When Liz Starts a New Project
@@ -403,6 +406,8 @@ When she asks about calendar, spreadsheets, docs, or files — use these scripts
 | `website/content/` | Website content (Markdown files) | Created in Phase 1 |
 | `projects/` | Campaign and client workspaces | Active (Sam Wang, Ron Davis) |
 | `config/` | Credentials, API keys, resource registry (gitignored except .yaml) | Active |
+| `scripts/setup.sh` | One-time git hooks activation (run every session start) | Active |
+| `.githooks/pre-commit` | Blocks CLAUDE.md bloat (>10 lines) | Active |
 | `scripts/` | Google Workspace API scripts | Active |
 
 ---
