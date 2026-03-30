@@ -1,5 +1,9 @@
-# Read START_HERE.md
+# Candidette — Liz's Political Consultancy Hub
 
-All documentation lives there. This file is a placeholder.
+**Read START_HERE.md in this repo for project context.**
 
-**Do not add content to this file.** The documentation structure is centralized in START_HERE.md by design. If you think something needs to be documented, add it there (or to the appropriate referenced doc) — not here.
+This repo is part of Nathan's broader ecosystem. For shared infrastructure (Google Sheets, Resend, service account), see `beat-kitchen-analytics/START_HERE.md`.
+
+**Never push without explicit approval.** One approval = one push.
+
+**Do not add content to this file.** Documentation lives in START_HERE.md.
