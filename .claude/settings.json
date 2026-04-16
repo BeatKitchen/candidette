@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:pdc.wa.gov)",
+      "Bash(.venv/bin/python scripts/format_field_plan.py)",
+      "WebSearch"
+    ]
+  }
+}
